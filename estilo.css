@@ -1,33 +1,62 @@
-body {
-   background: #ee7979;
-   margin: 0;
-   padding: 0;
+body{
+  background: rgb(172, 197, 139);
 }
-h1 {
-   text-align: center;
+h1{
+  text-align: center;
 }
 .caixa1 {
-  position: relative;
-  background: rgb(192, 65, 135);
-  width: 200px;
-  height: 200px;
-  color: #FFFFFF;
-  left: 45%;
+   position: absolute;
+   background: rgb(99, 153, 28);
+   width: 100px;
+   height: 100px;
+   color: #FFFFFF;
+   right: 0;
+   top:0;
+   font-family: 'Courier New', Courier, monospace;
 }
 .caixa2 {
-  position: relative;
-  background: rgb(197, 97, 228);
- width: 200px;
- height: 200px;
- color: #FFFFFF;
- top: 50%;
+   position: absolute;
+   background: blue;
+   width: 100px;
+   height: 100px;
+   color: #FFFFFF;
+   right: 0;
+   top:105px;
+}
+.caixa3 {
+   position: absolute;
+   background: rgb(99, 153, 28);
+   width: 100px;
+   height: 100px;
+   color: #FFFFFF;
+   right: 105px;
+   top: 0;
+   font-family: 'Courier New', Courier, monospace;
+}
+.caixa4 {
+   position: absolute;
+   background: blue;
+   width: 100px;
+   height: 100px;
+   color: #FFFFFF;
+   right: 105px;
+   top:105px;
+}
+.caixa5 {
+   position: absolute;
+   background: rgb(169, 169, 199);
+   width: 100px;
+   height: 100px;
+   color: #FFFFFF;
+   right:52px;
+   top: 52px;
 }
 
-.menuprincipal {
+.menuPrincipal {
    position: absolute;
    width: 100%;
    height: 45px;
-   background: rgb(3, 1, 5);
+   background: rgb(174, 211, 145);
    top: 0;
    left: 0;
 }
@@ -39,54 +68,55 @@ nav ul {
 }
 li {
    float: left;
-
 }
 li a {
    display: block;
-   color: rgb(235, 219, 235);
+   color: rgb(226, 80, 43);
    text-align: center;
    padding: 14px 16px;
-   text-decoration: none;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-decoration: none; 
+   font-family: 'Courier New', Courier, monospace;
 }
 li a:hover {
-   background: rgb(248, 248, 248);
-   color: rgb(0, 0, 0);
+   background: rgb(0, 0, 0);
+   color: rgb(255, 255, 255);
 }
-#bomba {
-   width: 10%;
+#rhinoimage {
+   width: 30% ;
 }
-.boxbomba {
-   position: absolute;
-   width: 90% ;
-   height: 200px ;
-   background: rgb(121, 54, 184);
-   top: 50px;
-   left: 0;
-   border-color: rgb(56, 23, 56);
-   border-width: 15px;
-   border-style: solid;
-   margin: 20px;
-   padding: 10px;
-   display: flex; 
-   justify-content: center;
-    
+.rhinoImage {
+  position: absolute;
+  width: 100%;
+  height: 200px ;
+  background: green;
+  top: 50px;
+  border-color: blue;
+  border-width: 10px;
+  border-style: dashed;
+  margin: 20px;
+  padding: 10px;
 }
-.rodape{
-position: absolute;
-bottom: 0;
-background: rgb(0, 0, 0);
-color: white;
-width: 100%;
-left: 0;
-height: 40px;
-display: flex;
-justify-content: center;
+ .rodape {
+    position: absolute;
+    bottom: 0;
+    background: green;
+    color:red ;
+    width: 100%;
+    left: 0 ;
+    height:40px ;
+    display: flex ;
+    justify-content: center ;
+ }
+ .conteudo {
+    position: absolute;
+    top: 45px;
+    width: 100%;
+    background: yellow;
+ }
+   
 
-}
 
-.conteudo{
-   position: absolute;
-   top: 45px;
 
-}
+
+
+
